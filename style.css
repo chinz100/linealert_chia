@@ -1,0 +1,194 @@
+body {
+    background-color: #ebebeb;
+    font-family: "Neucha", "Mitr", sans-serif;
+	letter-spacing: 0px;
+}
+
+.m-3rem{
+    border-top: 4rem;
+}
+.left1{
+    left: 0px;
+    margin-bottom: 1rem;
+}
+.b-green{
+    background-color: green;
+}
+.b-defual{
+    background-color: rgb(73, 73, 73);
+}
+.b-red{
+    background-color: rgb(151, 25, 20);
+}
+.martop{
+    margin-top: 1rem;
+}
+
+.martop:active{
+    background-color: rgb(79, 111, 43);
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+.white-board{
+    background-color: #c0c0c0;
+    border-radius: 0.3rem;
+
+    margin: 0 auto;
+    width: max-content;
+
+    text-align: center;
+   /* border-radius */
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+   /* box-shadow */
+    -webkit-box-shadow: rgba(94, 94, 94, 0.9) 0px 0 2px;
+    -moz-box-shadow: rgba(0,0,0,0.9) 0 0 2px;
+    box-shadow: rgba(0,0,0,0.9) 0 0 2px;
+}
+.L-3{
+    margin-left: 1rem;
+}
+footer{
+    background-color: #b1b0b0;
+}
+.LL-L{
+    width: -webkit-fill-available;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    background-color: #b1b0b0;
+    font-size:12px
+}
+.f-3{
+    font-size:10px
+}
+
+h1 {
+    font-family: "Neucha", "Mitr", sans-serif;
+    letter-spacing: 0px;
+}
+
+h1 {
+    font-family: "Neucha", "Mitr", sans-serif;
+    letter-spacing: 0px;
+}
+
+h2 {
+    font-family: "Neucha", "Mitr", sans-serif;
+    letter-spacing: 0px;
+}
+
+h3 {
+    font-family: "Neucha", "Mitr", sans-serif;
+    letter-spacing: 0px;
+}
+
+h4 {
+    font-family: "Neucha", "Mitr", sans-serif;
+    letter-spacing: 0px;
+}
+
+h5 {
+    font-family: "Neucha", "Mitr", sans-serif;
+    letter-spacing: 0px;
+}
+
+h6 {
+    font-family: "Neucha", "Mitr", sans-serif;
+    letter-spacing: 0px;
+}
+
+input {
+    font-family: "Neucha", "Mitr", sans-serif;
+    letter-spacing: 0px;
+}
+
+button {
+    font-family: "Neucha", "Mitr", sans-serif;
+    ;
+    letter-spacing: 0px;
+}
+
+.topstatus{
+    background-color: #eccb9f;
+    border: black;
+    border-radius: 0.2rem;
+    margin-bottom: 30px;
+}
+
+
+.wrapper {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.screen {
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: black;
+    min-height: 80px;
+    padding: 10px;
+    font-size: 2.5rem;
+    font-weight: blod;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+
+.screen .previous {
+    font-size: 1.5rem;
+    color: rgba(255,255,255,0.74);
+    word-wrap: break-word;
+    word-break:  break-all;
+}
+.screen .current {
+    font-size: 1.5rem;
+    color: #fff;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.calc_btn_row {
+    display: flex;
+    align-content: stretch;
+    justify-content: space-between;
+    margin-bottom: 0.8%;
+}
+
+.calc_btn {
+    background-color: burlywood;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    border: none;
+    height: 100px;
+    flex-basis: 24.5%;
+    cursor: pointer;
+}
+.calc_btn:hover{
+    background-color: #ebebeb;
+
+}
+.calc_btn:last-child{
+    background-color: chocolate;
+    color: cornsilk;
+}
+
+
+.calc_btn:last-child:hover{
+    background-color: rgb(224, 147, 92);
+
+}
+
+.calc_btn:active {
+    background-color: #bbbcbe;
+
+}
+.double {
+    flex-basis: 49.7%
+}
